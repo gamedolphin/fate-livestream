@@ -1,6 +1,7 @@
 #include <iostream>
+#include <fate/log.h>
 
 int main() {
-  std::cout<<"HELLO WORLD"<<std::endl;
+  Fate::LogMessage("HELLO WORLD");
   return 0;
 }
